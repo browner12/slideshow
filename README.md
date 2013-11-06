@@ -7,6 +7,16 @@ if you open up slideshow.php there are some instructions in there on configurati
 
 questions/comments feel free to drop me a line, and let me know if you end up using this anywhere, it’d be cool to see.
 
+Features:
+	- reset, previous, next, play/pause buttons
+	- updating current time, and total time
+	- updating slide number, and total slides
+	- updating progress bar
+	- edge to edge, no wasted space
+	- controls vanish when not in use
+	- click on the progress bar to be taken there
+	- actions triggered by time
+
 Files:
 	slideshow.php
 	slideshow.js
