@@ -8,19 +8,19 @@ if you open up slideshow.php there are some instructions in there on configurati
 questions/comments feel free to drop me a line, and let me know if you end up using this anywhere, it’d be cool to see.
 
 Features:
-	- reset, previous, next, play/pause buttons
-	- updating current time, and total time
-	- updating slide number, and total slides
-	- updating progress bar
-	- edge to edge, no wasted space
-	- controls vanish when not in use
-	- click on the progress bar to be taken there
-	- actions triggered by time
+	1. reset, previous, next, play/pause buttons
+	2. updating current time, and total time
+	3. updating slide number, and total slides
+	4. updating progress bar
+	5. edge to edge, no wasted space
+	6. controls vanish when not in use
+	7. click on the progress bar to be taken there
+	8. actions triggered by time
 
 Files:
-	slideshow.php
-	slideshow.js
-	slideshow.css
+	1. slideshow.php
+	2. slideshow.js
+	3. slideshow.css
 
 slideshow.php
 	this is an example page. if you don’t have a php server you’ll have to remove all that code and simply use the HTML, which should work just fine.
