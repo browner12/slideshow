@@ -7,7 +7,7 @@ if you open up slideshow.php there are some instructions in there on configurati
 
 questions/comments feel free to drop me a line, and let me know if you end up using this anywhere, it’d be cool to see.
 
-Features:
+	Features:
 	1. reset, previous, next, play/pause buttons
 	2. updating current time, and total time
 	3. updating slide number, and total slides
