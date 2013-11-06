@@ -17,6 +17,7 @@ questions/comments feel free to drop me a line, and let me know if you end up us
 	7. click on the progress bar to be taken there
 	8. actions triggered by time
 
+
 	Files:
 	1. slideshow.php
 	2. slideshow.js
