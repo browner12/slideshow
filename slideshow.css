@@ -1,0 +1,134 @@
+/**
+ * site css
+ *
+ * @author Andrew Brown <browner12@gmail.com>
+ * @version 1.0
+ * @copyright Andrew Brown 2013 
+ *
+ */
+
+/*body*/
+html, body{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 100%;
+}
+
+a{
+	color: white;
+}
+
+a:hover, a:active, a:link, a:focus{
+	color: white;
+	text-decoration: none;
+}
+
+/*loading*/
+.loading{
+	display:    none;
+	position:   fixed;
+	z-index:    99999;
+	top:        0;
+	left:       0;
+	height:     100%;
+	width:      100%;
+	background: rgba( 255, 255, 255, .8 ) 
+		url('../images/site/loader.gif') 
+		50% 50% 
+		no-repeat;
+}
+
+/**
+ * slides
+ */
+.slide{
+	transition: opacity 1s;
+	opacity:0;
+	width:100%;
+	height: 100%;
+	position: fixed;
+}
+
+.action{
+	opacity: 0;
+	transition: opacity 1s;
+	position: relative;
+}
+
+.active{
+	opacity: 1;
+	transition: opacity 2s;
+}
+
+/**
+ * controls
+ */
+.overlay{
+	opacity: 1;
+	z-index: 9999;
+	/*transition: opacity 0.5s linear 3s;*/
+}
+
+/*css transition way, can also use jquery*/
+/*.overlay:hover{
+	opacity: 1;
+	transition: opacity 1s;
+}*/
+
+.backButton{
+	border:1px solid #000000;
+	color: white;
+	border-radius:35px;
+	background-color:black;
+	width:70px; 
+	height:70px;
+	line-height: 70px;
+	position:fixed;
+	top:20px;
+	left:5%;
+	font-size:18px;
+	text-align:center;
+	vertical-align:middle;
+	font-weight:600;
+}
+
+.backButton:hover{
+	box-shadow:0px 0px 5px 2px silver;
+}
+
+.backButton:active{
+	font-size:17px;
+}
+
+.bottomControl{
+	position: fixed;
+	bottom: 20px;
+	left: 5%;
+	width: 90%;
+}
+
+.progress{
+	margin-bottom: 5px !important; /*override bootstrap css*/
+}
+
+.progress .bar{
+	transition: width 1s linear; /*override bootstrap css*/
+}
+
+.controls{
+	background-color: #111111;
+	border-radius: 7px;
+	padding: 5px 10px 5px 5px;
+	color: #FFFFFF;
+}
+
+.controls .left{
+	display: inline-block;
+	width: 50%;
+}
+
+.controls .right{
+	display: inline-block;
+	text-align: right;
+	width:50%;
+}
