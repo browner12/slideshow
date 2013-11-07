@@ -21,7 +21,7 @@ Features:
 Demo:
 -----
 
-www.andrewmichaelbrown.com/slideshow
+www.andrewmichaelbrown.com/index.php/slideshow
 
 Files:
 ------
