@@ -277,7 +277,7 @@ $(document).ready(function(){
 			status = 'play';
 			
 			//change icon
-			$("#play").html('<i class="icon-pause"></i>');
+			$("#play").html('<i class="fa fa-pause"></i>');
 			
 			//start timer
 			timerId = setInterval(function(){
@@ -343,7 +343,7 @@ $(document).ready(function(){
 		status = 'pause';
 		
 		//change icon
-		$("#play").html('<i class="icon-play"></i>');
+		$("#play").html('<i class="fa fa-play"></i>');
 		
 		//stop timer
 		clearInterval(timerId);

@@ -2,8 +2,17 @@
 <html>
 <head>
 <title>Awesome Slideshow Script</title>
+
+<!--css-->
 <link rel="stylesheet" type="text/css" href="slideshow.css" />
-<script src="slideshow.js"></script>
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+<!--javascript-->
+<script type="text/javascript" src="slideshow.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
@@ -64,6 +73,10 @@ function slideId($new = FALSE){
 	<div class="bottomControl">
 	
 		<!--progress bar-->
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:0%;"></div>
+		</div>
+		
 		<div class="progress progress-success" id="progress"><div class="bar" id="bar" style="width:0%; "></div></div>
 	
 		<!--controls-->
