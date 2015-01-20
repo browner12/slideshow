@@ -1,5 +1,5 @@
 /**
- * site css
+ * slideshow css
  *
  * @author Andrew Brown <browner12@gmail.com>
  * @version 1.0
@@ -31,10 +31,10 @@ a:hover, a:active, a:link, a:focus{
 	left:       0;
 	height:     100%;
 	width:      100%;
-	background: rgba( 255, 255, 255, .8 ) 
-		url('../images/site/loader.gif') 
-		50% 50% 
-		no-repeat;
+	background: rgba( 255, 255, 255, .8 )
+	url('/images/site/loader.gif')
+	50% 50%
+	no-repeat;
 }
 
 /**
@@ -79,7 +79,7 @@ a:hover, a:active, a:link, a:focus{
 	color: white;
 	border-radius:35px;
 	background-color:black;
-	width:70px; 
+	width:70px;
 	height:70px;
 	line-height: 70px;
 	position:fixed;
@@ -92,7 +92,7 @@ a:hover, a:active, a:link, a:focus{
 }
 
 .backButton:hover{
-	box-shadow:0px 0px 5px 2px silver;
+	box-shadow:0px 0px 5px 2px #C0C0C0;
 }
 
 .backButton:active{
