@@ -89,16 +89,16 @@ function slideId($new = FALSE){
 					<div class="btn-group">
 					
 						<!--reset-->
-						<button class="btn" id="reset" title="First Slide"><i class="fa fa-fast-backward"></i></button>
+						<button class="btn btn-default btn-sm" id="reset" title="First Slide"><i class="fa fa-fast-backward"></i></button>
 						
 						<!--previous-->
-						<button class="btn" id="previous" title="Previous Slide"><i class="fa fa-backward"></i></button>
+						<button class="btn btn-default btn-sm" id="previous" title="Previous Slide"><i class="fa fa-backward"></i></button>
 						
 						<!--play/pause-->
-						<button class="btn" id="play" title="Play/Pause"><i class="fa fa-play"></i></button>
+						<button class="btn btn-default btn-sm" id="play" title="Play/Pause"><i class="fa fa-fw fa-play"></i></button>
 						
 						<!--next-->
-						<button class="btn" id="next" title="Next Slide"><i class="fa fa-forward"></i></button>
+						<button class="btn btn-default btn-sm" id="next" title="Next Slide"><i class="fa fa-forward"></i></button>
 						
 					</div>
 					
