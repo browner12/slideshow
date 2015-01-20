@@ -1,0 +1,9 @@
+# dependencies (composer, npm, bower)
+/vendor
+
+# windows/mac crap
+.DS_Store
+Thumbs.db
+
+# phpstorm config
+/.idea
