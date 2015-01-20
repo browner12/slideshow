@@ -66,7 +66,7 @@ function slideId($new = FALSE){
 <div class="overlay">
 
 	<!--back button-->
-	<div class="backButton"><a href="<?php echo site_url('slideshow'); ?>">Back</a></div>
+	<div class="backButton"><a href="#">Back</a></div>
 
 
 	<!--bottom control-->
