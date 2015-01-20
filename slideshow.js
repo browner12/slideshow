@@ -295,7 +295,7 @@ $(document).ready(function(){
 			status = 'play';
 
 			//change icon
-			$("#play").html('<i class="fa fa-pause"></i>');
+			$("#play i").removeClass('fa-play').addClass('fa-pause');
 
 			//start timer
 			timerId = setInterval(function(){
@@ -361,7 +361,7 @@ $(document).ready(function(){
 		status = 'pause';
 
 		//change icon
-		$("#play").html('<i class="fa fa-play"></i>');
+		$("#play i").removeClass('fa-pause').addClass('fa-play');
 
 		//stop timer
 		clearInterval(timerId);
