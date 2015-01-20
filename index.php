@@ -24,7 +24,7 @@ function fireId(){
 	return "fire".$a;
 }
 
-function slideId($new = FALSE){
+function slideId($new = false){
 	static $b = 0;
 	
 	if($new){
